@@ -31,6 +31,7 @@ function LocationCapture() {
           .finally(() => {
             setIsLoading(false);
           });
+
       }, function (error) {
         switch (error.code) {
           case error.PERMISSION_DENIED:
