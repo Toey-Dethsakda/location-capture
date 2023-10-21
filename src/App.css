@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.Button-Ad {
+  color: rgb(167, 122, 122);
+  width: 200px;
+  height: 100px;
+  font-size: calc(10px + 2vmin);
+  border-radius: 1ch;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
